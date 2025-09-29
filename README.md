@@ -86,8 +86,6 @@ vagrant status
 
 ### Запуск playbook
 
-Если вы хотите запустить Ansible:
-
 ```bash
 cd ansible
 ansible-playbook playbook.yml -i hosts.ini
