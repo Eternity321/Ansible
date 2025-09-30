@@ -23,8 +23,7 @@
 lemp-ansible/
 ├── Vagrantfile              # Конфигурация виртуальных машин
 ├── ansible/
-│   ├── ansible.cfg          # Конфигурация Ansible
-│   ├── inventory.ini        # Инвентарь хостов
+│   ├── hosts.ini            # список хостов
 │   ├── playbook.yml         # Основной playbook
 │   └── roles/               # Роли Ansible
 │       ├── nginx/
